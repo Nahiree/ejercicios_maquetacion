@@ -70,9 +70,10 @@ body{
 /*Ejercicio 2*/
 
 .ejercicio2{
-    height: 120vh;
+    height: 130vh;
     background-color: gray;
     display: flex;
+    padding: 60px;
 }
 
 .ejercicio2 .card2{
@@ -138,7 +139,7 @@ body{
     height: 100vh;
     background-color: darkgrey;
     display: flex;
-    padding: auto;
+    padding: 60px;
 }
 
 .ejercicio3 .card3{
@@ -190,16 +191,22 @@ body{
 
 /*Ejercicio 4*/
  .ejercicio4 {
-    height: 110vh;
+    height: 160vh;
     background-color: gray;
     display: flex;
+    flex-direction: column;
+ }
+ 
+ .ejercicio4 h2{
+    padding: 60px 60px 0 60px;
  }
 
  .ejercicio4 .card4{
     height: 1230px;
     width: 1925px;
     border: 40px solid #000;
-    margin: 0 auto;
+    margin: auto;
+    background-color: white;
  }
 
  .ejercicio4 .card4 div{
@@ -211,18 +218,160 @@ body{
  }
 
  .ejercicio4 .card4 .c41{
-    margin-bottom: 385px;
+    margin-bottom: 330px;
+    padding: 24px 24px;
+ }
+
+ .ejercicio4 .card4 .c41 p:nth-child(2){
+    width: 374px;
+    height: 88px;
  }
 
  .ejercicio4 .card4 .c42{
     display: flex;
     flex-direction: column;
  }
+ .ejercicio4 .card4 .c42 .c42_txt_img{
+    height: 594px;
+    padding: 0 0 25px 20px;
+ }
+ .ejercicio4 .card4 .c42 .c42_txt_img p{
+    font-size: 825px;
+    line-height: 0.75;
+    letter-spacing: -100px;
+    transform: scaleX(0.61); 
+    text-indent: -450px;
+    font-weight: bold;
+ }
 
+ .ejercicio4 .card4 .c42 .c42_txt_img img{
+    width: 648px;
+    height: 594px;
+ }
 
+ /*EJERCICIO 5*/
 
+ .ejercicio5 {
+    height: 160vh;
+    width: auto;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+ } 
+
+ .ejercicio5 .card5 {
+    display: flex;
+    flex-direction: column;
+    width: 646px;
+    height: 1394px;
+    background-color: rgba(254, 252, 255, 1);
+    margin: auto;
+    padding: 65px 40px;
+    gap: 155px;
+ }
+
+ .ejercicio5 .card5 ul{
+    list-style: none;
+ }
+
+ .ejercicio5 .card5 .c51{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0  auto;
+ }
+
+ .ejercicio5 .card5 .c51 .c511{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
  
+.ejercicio5 .card5 .c51 .c511 li:nth-child(1) p{
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+ }
 
+.ejercicio5 .card5 .c51 .c511 li:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.ejercicio5 .card5 .c51 .c511 li:nth-child(2) p{
+    font-size: 24px;
+    font-weight: bold;
+ }
+ .ejercicio5 .card5 .c51 .c512{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .ejercicio5 .card5 .c51 .c512 p:nth-child(1){
+    font-size: 60px;
+    font-weight: bold;
+ }
+
+.ejercicio5 .card5 .c51 .c512 p:nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .ejercicio5 .card5 .c52{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 0 auto;
+}
+
+.ejercicio5 .card5 .c52 p{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.ejercicio5 .card5 .c52 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.ejercicio5 .card5 .c52 ul div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.ejercicio5 .card5 .c52 ul div li{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ejercicio5 .card5 .c52 ul div li p{
+    font-size: 18px;
+    margin: 0 auto;
+}
+.ejercicio5 a{
+    display: flex;
+    width: 210px;
+    height: 50px;
+    border: 2px solid black;
+    text-decoration: none;
+    margin: auto;
+    background-color:  white;
+}
+
+.ejercicio5 a p{
+    display: flex;
+    margin: auto;
+    color: black;
+}
 
 
  
